@@ -1,4 +1,103 @@
 body {
+  padding: 0;
 	margin: 0;
-	padding: 0;
+  font-family: sans-serif;
+	background-image: url(../img/background-pizza.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+nav {
+  background-color: rgba(143, 36, 36, 0.2);
+  height: 110px;
+	
+}
+
+.itens ul {
+  padding-top: 10px;
+}
+
+.itens ul li {
+  display: inline;
+  padding: 0px 20px;
+  font-size: 17px;
+}
+
+.itens ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.logo {
+  padding-bottom: 15px;
+}
+
+section h1 {
+  font-size: 30px;
+  text-align: center;
+	margin-top: 600px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+section table {
+	margin-top: 70px;
+  text-align: center;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  border-collapse: collapse;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+table thead tr th {
+  padding: 20px 30px 20px 30px;
+  font-size: 19px;
+  border: 1px solid black;
+}
+
+table tbody tr td {
+  padding: 30px 30px 30px 30px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.sim {
+  color: green;
+}
+.nao {
+  color: red;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	color: white;
 }
